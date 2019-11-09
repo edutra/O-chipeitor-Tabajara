@@ -19,30 +19,55 @@ EM seguida vem a lista de conexões entre os componentes, indicando quem liga co
 ### Formato de input
 
 3 18
+
 0 1 2
+
 3 4 5
+
 6 7 8
+
 0 3
+
 1 4
+
 4 0
+
 4 2
+
 4 3
+
 5 4
+
 5 0
+
 5 2
+
 6 5
+
 6 0
+
 4 6
+
 2 6
+
 6 1
+
 3 6
+
 6 7
+
 7 0
+
 5 7
+
 4 8
+
 
 Para o input acima, um algoritmo genético que tenta trocar os elementos de lugar pode resultar em:
 3 6 2
+
 0 4 5
+
 1 7 8
+
 que tem um comprimento total de ligações valendo 23.957 unidades.
