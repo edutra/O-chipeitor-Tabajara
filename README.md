@@ -88,4 +88,6 @@ o comando >> salva o output do terminal em um arquivo. Tudo que for impresso na 
 Após rodar o comando acima, digite o valor de n (a matriz é n*n), aperte enter, e digite a
 quantidade de fios que voce quer, e aperte enter.
 
+Para a minha implementação, não é necessario ler a matriz no arquivo de input, já que eu crio ela.
+
 
