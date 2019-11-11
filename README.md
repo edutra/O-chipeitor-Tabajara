@@ -76,11 +76,11 @@ que tem um comprimento total de ligações valendo 23.957 unidades.
 
 ## Como rodar
 
-python3 chip.py "nome do arquivo input"
+`python3 chip.py "nome do arquivo input"`
 
 
 ## Como gerar casos para a minha implementação:
-python3 gera_caso.py >> "arquivo"
+`python3 gera_caso.py >> "arquivo"`
 
 o comando >> salva o output do terminal em um arquivo. Tudo que for impresso na tela pelo
 "gera_caso.py) vai ser salvo no arquivo.
