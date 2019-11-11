@@ -71,3 +71,21 @@ Para o input acima, um algoritmo genético que tenta trocar os elementos de luga
 1 7 8
 
 que tem um comprimento total de ligações valendo 23.957 unidades.
+
+
+
+## Como rodar
+
+python3 chip.py "nome do arquivo input"
+
+
+## Como gerar casos para a minha implementação:
+python3 gera_caso.py >> "arquivo"
+
+o comando >> salva o output do terminal em um arquivo. Tudo que for impresso na tela pelo
+"gera_caso.py) vai ser salvo no arquivo.
+
+Após rodar o comando acima, digite o valor de n (a matriz é n*n), aperte enter, e digite a
+quantidade de fios que voce quer, e aperte enter.
+
+
