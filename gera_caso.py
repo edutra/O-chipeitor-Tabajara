@@ -1,8 +1,8 @@
 import random
 
-print("Qual o valor de n?")
+#print("Qual o valor de n?")
 tamanho = input()
-print("Quantos fios vai ter?")
+#print("Quantos fios vai ter?")
 qtd_fios = input()
 tam_int = int(tamanho)
 qtd_fios_int = int(qtd_fios)

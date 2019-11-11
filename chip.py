@@ -1,7 +1,7 @@
 import math
 import random
 import sys
-
+import time
 matriz = []
 size = 0
 fios = []
@@ -176,7 +176,7 @@ def inverte_linha():
     dist_aux = calcula_dist_tudo(aux)
     dist_dic = calcula_dist_tudo(matriz)
 
-    if(dist_aux <= dist_dic):
+    if(dist_aux < dist_dic):
 
         return aux.copy()
 
@@ -234,7 +234,7 @@ def _1d_to_2d(arr):
 
     matrix =  [[0 for x in range(side_size)] for y in range(side_size)]
     #print(array_aux)
-    for x in range(len(array_aux)):
+    for x in range(len(array_aux)-1):
         
         matrix[array_aux[x][0]][array_aux[x][1]] = x
     
@@ -287,7 +287,11 @@ def main():
 
      
         matriz = aux.copy()
-        #print(f"Tamanho total = {calcula_dist_tudo(matriz)} \n {_1d_to_2d(matriz.copy())}", end="\r")
+        
+        if(i % 1000 == 0):
+            print("Matriz:")
+            print(f"{_1d_to_2d(aux.copy())}", end="\r")
+            
         print(f"Tamanho total = {calcula_dist_tudo(matriz)}", end="\r")
         
 
